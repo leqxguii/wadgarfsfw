@@ -1,0 +1,25 @@
+--Coasting UI Lib by : https://v3rmillion.net/member.php?action=profile&uid=1393756
+--Release thread here : https://v3rmillion.net/showthread.php?tid=1071849&pid=7590441
+
+local CoastingLibrary = loadstring(game:HttpGet("https://pastebin.com/raw/3gQQtaKX"))()
+
+local AimbotTab = CoastingLibrary:CreateTab("qxware")
+local MainSection = AimbotTab:CreateSection("Main")
+local ConfigSection = AimbotTab:CreateSection("Config")
+
+MainSection:CreateButton("StreamProof", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/nwuXHUeD'))()
+end)
+
+MainSection:CreateButton("Blatant q ", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/Q5fHVbLx", true))()
+end)
+
+
+ConfigSection:CreateButton("cFrame ", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/ilovecodeing123456799/cframe-speed/main/cframe.lua'))()
+end)
+
+ConfigSection:CreateButton("fly X ", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/sUA9m6M6"))()
+end)
