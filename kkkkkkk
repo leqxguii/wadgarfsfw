@@ -12,7 +12,7 @@ MainSection:CreateButton("StreamProof", function()
 end)
 
 MainSection:CreateButton("Blatant q ", function()
-    loadstring(game:HttpGet("https://pastebin.com/raw/Q5fHVbLx", true))()
+    loadstring(game:HttpGet("https://pastebin.com/9K7fzmc7", true))()
 end)
 
 
